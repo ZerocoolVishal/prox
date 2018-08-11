@@ -1,0 +1,10 @@
+Movies table :
+
+0. id
+1. title (string)
+2. year (string)
+3. discription (string)
+4. image_url (string)
+5. download_link (string)
+6. upload_timestamp (timestamp)
+
