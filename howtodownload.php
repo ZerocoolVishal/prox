@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include "head.php" ?>
+    <?php include "components/head.php" ?>
     <style>
         p {
             margin-top:30px;
@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <?php include "header.php" ?>
+    <?php include "components/header.php" ?>
     
     <div class="container">
         <h1>How to Download from prox (Desktop) ?</h1>
@@ -71,8 +71,8 @@
     </div>
 
     <?php 
-        include "footer.php";
-        include "load_scripts.php";
+        include "components/footer.php";
+        include "components/load/load_js.html";
     ?>
 
 </body>

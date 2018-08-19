@@ -25,9 +25,9 @@
       <h4  class="text-muted">free movies and series 👻</h4>
       <hr>
       
-      <div style="margin-bottom: 25px;">
+      <div style="padding: 30px;">
         <?php include "components/request_movie.php" ?>
-      <div>
+      </div>
 
       <div class="section">
         <h2>Bolliwood</h2>

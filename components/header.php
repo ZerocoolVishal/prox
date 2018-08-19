@@ -8,16 +8,16 @@
       <div class="navbar-collapse collapse" id="navbarsExample03" style="">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../">Home</a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="../music">Music</a>
-          </li>-->
-          <li class="nav-item">
-            <a class="nav-link" href="../movies">All Movies</a>
+            <a class="nav-link" href="/prox/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../howtodownload.php">How to download ?</a>
+            <a class="nav-link" href="/prox/movies">All Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/prox/movieindex/">Index</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/prox/howtodownload.php">How to download ?</a>
           </li>
         </ul>
         <!--<form class="form-inline my-2 my-md-0">
