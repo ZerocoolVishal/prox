@@ -8,7 +8,7 @@ function loadMovies() {
     var xhttp = new XMLHttpRequest()
     xhttp.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
-
+        
             var moviesList = JSON.parse(this.responseText)
             moviesList.forEach(movie => {
                 var card = movieCard(movie.id, movie.title, movie.year, movie.discription, movie.image_url, movie.download_link, movie.trailer_link, movie.upload_timestamp)

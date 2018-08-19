@@ -41,8 +41,9 @@
           <div class="row" id="movies_list">
           </div>
 
-           <?php include "../components/request_movie.php" ?>
-
+          <div style="padding:30px;">
+            <?php include "../components/request_movie.php" ?>
+          <div>
         </div>
       </div>
 
@@ -52,6 +53,8 @@
       include "../components/footer.php";
       include "../load_scripts.php";
     ?>
+    <!--Movies JS-->
+    <script src="movies.js"></script>
 
   </body>
 </html>

@@ -1,6 +1,6 @@
-<div style="padding:50px;">
+<div style="">
     <h1>Wanna watch a movie or series but not available ? 🤔</h1>
-    <h4  class="text-muted">Drop a message and we will make it available in few minutes 😊</h4>
+    <h4  class="text-muted">Drop a message and we will make it available ASAP !! 😊</h4>
     <form>
     <div class="form-group">
         <label for="exampleFormControlInput1">Email address</label>
