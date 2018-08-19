@@ -19,9 +19,9 @@
 
     <?php include "components/header.php" ?>
 
-    <div class="py-3 bg-light">
+    <div class="py-5 bg-light">
 
-    <div style="padding-left: 50px; padding-right: 50px; text-align: center;">
+    <div style="text-align: center;">
       <h1 class="title">prox</h1>
       <h4  class="text-muted">free movies and series 👻</h4>
       <hr>
@@ -40,21 +40,21 @@
         </div>
 
         <div class="section">
-        <h2>Holliwood</h2>
-        <?php include "components/gallery.php"?>
-        <button type="button" class="btn btn-default float-right">Show All</button>
+          <h2>Holliwood</h2>
+          <?php include "components/gallery.php"?>
+          <button type="button" class="btn btn-default float-right">Show All</button>
         </div>
 
         <div class="section">
-        <h2>Netflix</h2>
-        <?php include "components/gallery.php"?>
-        <button type="button" class="btn btn-default float-right">Show All</button>
+          <h2>Netflix</h2>
+          <?php include "components/gallery.php"?>
+          <button type="button" class="btn btn-default float-right">Show All</button>
         </div>
 
         <div class="section">
-        <h2>Other Popular</h2>
-        <?php include "components/gallery.php"?>
-        <button type="button" class="btn btn-default float-right">Show All</button>
+          <h2>Other Popular</h2>
+          <?php include "components/gallery.php"?>
+          <button type="button" class="btn btn-default float-right">Show All</button>
         </div>
 
       </div>

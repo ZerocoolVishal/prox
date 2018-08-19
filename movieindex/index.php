@@ -4,15 +4,15 @@
 <body>
     <?php include "../components/header.php"?>
 
-    <div class="container">
-        <h1>Movie Index 🧐</h1>
-        <p>
-            All movies we have, if you dont find movie in the index please make a request 👉<a href="#request_movie">here</a> for that movie and we will make that available.
-        </p>
-        <?php include "movie_list.php"?>
+    <div class="py-5 bg-light">
+        <div class="container">
+            <h1>Movie Index 🧐</h1>
+            <p class="text-muted">All movies we have, if you dont find movie in the index please make a request 👉<a href="#request_movie">here</a> for that movie and we will make that available.</p>
+            <?php include "movie_list.php"?>
 
-        <div id="request_movie" style="padding-top:30px; padding-bottom:30px;">
-            <?php include "../components/request_movie.php"?>
+            <div id="request_movie" style="padding-top:30px; padding-bottom:30px;">
+                <?php include "../components/request_movie.php"?>
+            </div>
         </div>
     </div>
 
