@@ -1,6 +1,8 @@
-<input type="text" class="form-control" id="name" onkeyup="myFunction()" placeholder="Search for title.." title="Search for movies and series">
 
-<table class="table table-borderless" id="movie_list">
+<div style="margin:30px">
+  <input type="text" class="form-control" id="name" onkeyup="myFunction()" placeholder="Search for title.." title="Search for movies and series">
+</div>
+<table class="table table-striped table-borderless" id="movie_list">
   <thead>
     <tr>
       <th scope="col">#</th>

@@ -11,7 +11,7 @@
             <a class="nav-link" href="/prox/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/prox/movies">All Movies</a>
+            <a class="nav-link" href="/prox/movies">Movies & Series</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/prox/movieindex/">Index</a>

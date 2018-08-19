@@ -11,7 +11,7 @@
         </p>
         <?php include "movie_list.php"?>
 
-        <div id="request_movie">
+        <div id="request_movie" style="padding-top:30px; padding-bottom:30px;">
             <?php include "../components/request_movie.php"?>
         </div>
     </div>
