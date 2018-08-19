@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
   
-  <?php include "../head.php" ?>
+  <?php include "../components/head.php" ?>
 
   <body>
 
-    <?php include "../header.php" ?>
+    <?php include "../components/header.php" ?>
 
     <main role="main">
 
@@ -27,7 +27,7 @@
 
         <div class="container">
 
-           <?php include "../download_torrent.php" ?>
+           <?php include "../components/download_torrent.php" ?>
 
           <!--<div class="jumbotron mt-3">
             <h1>Download BitTorrent</h1>
@@ -41,7 +41,7 @@
           <div class="row" id="movies_list">
           </div>
 
-           <?php include "../request_movie.php" ?>
+           <?php include "../components/request_movie.php" ?>
 
         </div>
       </div>
@@ -49,7 +49,7 @@
     </main>
 
     <?php 
-      include "../footer.php";
+      include "../components/footer.php";
       include "../load_scripts.php";
     ?>
 

@@ -17,15 +17,15 @@
 
   <body>
 
-    <?php include "header.php" ?>
+    <?php include "components/header.php" ?>
 
     <div class="container">
 
       <h1 class="title">prox</h1>
       <h4  class="text-muted">free movies and series 👻</h4>
       <hr>
-
-      <?php include "request_movie.php" ?>
+      
+      <?php include "components/request_movie.php" ?>
 
       <div class="section">
         <h2>Bolliwood</h2>
@@ -52,6 +52,8 @@
       </div>
 
     </div>
+    
+    <?php include "components/footer.php" ?>
 
     <!--import JavaScript-->
     <?php include 'load_js.html' ?>
