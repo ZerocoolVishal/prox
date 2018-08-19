@@ -30,6 +30,16 @@
                 <label>Trailer Link</label>
                 <input type="text" class="form-control" name="trailer_link" placeholder="">
             </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="exampleFormControlSelect1" name="category">
+                <option value="1">bolliwood</option>
+                <option value="2">holliwood</option>
+                <option value="3">netflix_series</option>
+                <option value="4">other_series</option>
+                <option value="5">other</option>
+                </select>
+            </div>
             <button type="submit" class="btn btn-primary mb-2">Add Movie</button>
         </form>
 

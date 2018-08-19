@@ -6,8 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--import CSS-->
-    <?php require 'load_css.html' ?>
-    <title>Project X - The ultimate download website</title>
+    <?php include 'load_css.html' ?>
+    <style>
+       .section{
+         padding-bottom:100px;
+      }
+    </style>
+    <title>prox - The ultimate download website</title>
   </head>
 
   <body>
@@ -15,22 +20,37 @@
     <?php include "header.php" ?>
 
     <div class="container">
-      <h1 class="title">The Download Centre</h1>
-      <h4>ultimate download site for local</h4>
+
+      <h1 class="title">prox</h1>
+      <h4  class="text-muted">free movies and series 👻</h4>
       <hr>
-      <h3>Categories</h3>
-      <ul>
-        <li><a href="#">Movies</a></li>
-        <li><a href="#">Songs</a></li>
-        <li><a href="#">Videos</a></li>
-        <li><a href="#">Applications</a></li>
-        <li><a href="#">Other</a></li>
-      </ul>
-      <hr>
-      <h2>Popular Movies</h2>
-      <h2>Popular Songs</h2>
-      <h2>Popular Videos</h2>
-      <h2>Popular Applications</h2>
+
+      <?php include "request_movie.php" ?>
+
+      <div class="section">
+        <h2>Bolliwood</h2>
+        <?php include "gallery.php"?>
+        <button type="button" class="btn btn-default float-right">Show All</button>
+      </div>
+
+      <div class="section">
+      <h2>Holliwood</h2>
+      <?php include "gallery.php"?>
+      <button type="button" class="btn btn-default float-right">Show All</button>
+      </div>
+
+      <div class="section">
+      <h2>Netflix</h2>
+      <?php include "gallery.php"?>
+      <button type="button" class="btn btn-default float-right">Show All</button>
+      </div>
+
+      <div class="section">
+      <h2>Other Popular</h2>
+      <?php include "gallery.php"?>
+      <button type="button" class="btn btn-default float-right">Show All</button>
+      </div>
+
     </div>
 
     <!--import JavaScript-->

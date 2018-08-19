@@ -7,4 +7,5 @@ Movies table :
 4. image_url (string)
 5. download_link (string)
 6. upload_timestamp (timestamp)
-
+7. trailer_link
+8. category (bolliwood, holliwood, netflix_series, other_series, other)

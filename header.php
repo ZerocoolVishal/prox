@@ -10,19 +10,19 @@
           <li class="nav-item">
             <a class="nav-link" href="../">Home</a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="../music">Music</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="../movies">All Movies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../movies">Movies</a>
+            <a class="nav-link" href="../howtodownload.php">How to download ?</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-md-0">
+        <!--<form class="form-inline my-2 my-md-0">
           <input class="form-control" type="text" placeholder="Search">
-        </form>
+        </form>-->
       </div>
     </nav>
 </header>
