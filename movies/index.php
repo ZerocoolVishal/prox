@@ -23,7 +23,7 @@
       </section>-->
       
 
-      <div class="album py-5 bg-light">
+      <div class="py-3 bg-light">
 
         <div class="container">
 
