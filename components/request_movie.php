@@ -1,9 +1,11 @@
 <div style="">
     <h1>Wanna watch a movie or series but not available ? 🤔</h1>
-    <h4  class="text-muted">Drop a message and we will make it available ASAP !! 😊</h4>
+    <p  class="text-muted">Drop a message and we will make it available ASAP !! 😊
+        Or drop a message if you wanna give us a feedback..
+    </p>
     <form action="/prox/api/addRequest.php" method="GET">
         <div class="form-group">
-            <label for="email">Email address</label>
+            <label for="email">Email address (Optional)</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
         </div>
         <div class="form-group">
