@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php require "../components/head.php"; ?>
+    <?php include "../components/head.php"; ?>
+    <?php require "../api/dbConnect.php";?>
+    
 <body>
     
     <div class="container">
@@ -33,11 +35,16 @@
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Example select</label>
                 <select class="form-control" id="exampleFormControlSelect1" name="category">
-                <option value="1">bollywood</option>
-                <option value="2">hollywood</option>
-                <option value="3">netflix_series</option>
-                <option value="4">other_series</option>
-                <option value="5">other</option>
+                    <?php 
+                        $sql = "SELECT * FROM `prox_category`";
+                        if($res = $conn->query($sql)) {
+                            while($row = $res->fetch_assoc()) {
+                                $id = $row['id'];
+                                $name = $row['category_name'];
+                                echo "<option value=\"$id\">$name</option>";
+                            }
+                        }
+                    ?>
                 </select>
             </div>
             <button type="submit" class="btn btn-primary mb-2">Add Movie</button>

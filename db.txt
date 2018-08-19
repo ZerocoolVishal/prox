@@ -1,6 +1,6 @@
 Movies table :
 
-0. id
+0. id (PK)
 1. title (string)
 2. year (string)
 3. discription (string)
@@ -8,7 +8,7 @@ Movies table :
 5. download_link (string)
 6. upload_timestamp (timestamp)
 7. trailer_link
-8. category (bolliwood, holliwood, netflix_series, other_series, other)
+8. category (category -> id) (FK)
 
 Request Movie table :
 
@@ -16,3 +16,8 @@ Request Movie table :
 1. email
 2. message
 3. timestamp
+
+Category table :
+
+0. id
+1. category_name

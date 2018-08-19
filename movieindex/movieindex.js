@@ -19,7 +19,7 @@ function loadMovie() {
                 <tr>
                     <th scope="row">${i}</th>
                     <td>${movie.title}</td>
-                    <td>${movie.category}</td>
+                    <td>${movie.category_name}</td>
                     <td>${movie.year}</td>
                     <td><a href="${movie.download_link}" class="btn btn-outline-primary btn-sm">download</a>
                 </tr>
