@@ -40,7 +40,7 @@
         </div>
 
         <div class="section">
-          <h2>Holliwood</h2>
+          <h2>Hollywood</h2>
           <?php include "components/gallery.php"?>
           <button type="button" class="btn btn-default float-right">Show All</button>
         </div>

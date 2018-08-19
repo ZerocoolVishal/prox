@@ -9,3 +9,10 @@ Movies table :
 6. upload_timestamp (timestamp)
 7. trailer_link
 8. category (bolliwood, holliwood, netflix_series, other_series, other)
+
+Request Movie table :
+
+0. id
+1. email
+2. message
+3. timestamp

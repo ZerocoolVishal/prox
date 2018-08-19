@@ -33,8 +33,8 @@
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Example select</label>
                 <select class="form-control" id="exampleFormControlSelect1" name="category">
-                <option value="1">bolliwood</option>
-                <option value="2">holliwood</option>
+                <option value="1">bollywood</option>
+                <option value="2">hollywood</option>
                 <option value="3">netflix_series</option>
                 <option value="4">other_series</option>
                 <option value="5">other</option>

@@ -15,6 +15,8 @@
 <body>
     <?php include "components/header.php" ?>
     
+    <div class="py-5 bg-light">
+
     <div class="container">
         <h1>How to Download from prox (Desktop) ?</h1>
         <div class="col sm-12 lg-9"> 

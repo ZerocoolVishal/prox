@@ -21,7 +21,7 @@ function loadMovie() {
                     <td>${movie.title}</td>
                     <td>${movie.category}</td>
                     <td>${movie.year}</td>
-                    <td><a href="${movie.download_link}" class="btn btn-outline-success btn-sm">download</a>
+                    <td><a href="${movie.download_link}" class="btn btn-outline-primary btn-sm">download</a>
                 </tr>
                 `)
                 i++;
