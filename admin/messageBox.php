@@ -5,7 +5,6 @@
 
 <?php 
     require "../api/dbConnect.php";
-
     $result = $conn->query("SELECT * FROM `prox_request`");
 ?>
 <body>

@@ -15,5 +15,5 @@ $sql2 = "INSERT INTO `prox_movies` (`id`, `title`, `year`, `discription`, `image
 $sql3 = "INSERT INTO `prox_movies` (`id`, `title`, `year`, `discription`, `image_url`, `download_link`, `upload_timestamp`, `trailer_link`, `category`) VALUES (NULL, '$title', '$year', '$discription', '$image_url', '$download_link', CURRENT_TIMESTAMP, '$trailer_link', '$category');";
 
 $res = $conn->query($sql3);
-
-echo $res . " Row updated";
+    
+header("location:../admin/");

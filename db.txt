@@ -1,4 +1,4 @@
-Movies table :
+Movies table : (prox_movies)
 
 0. id (PK)
 1. title (string)
@@ -6,18 +6,18 @@ Movies table :
 3. discription (string)
 4. image_url (string)
 5. download_link (string)
-6. upload_timestamp (timestamp)
-7. trailer_link
-8. category (category -> id) (FK)
+6. trailer_link
+7. category (category -> id) (FK)
+8. upload_timestamp (timestamp)
 
-Request Movie table :
+Request Movie table : (prox_request)
 
 0. id
 1. email
 2. message
 3. timestamp
 
-Category table :
+Category table : (prox_category)
 
 0. id
 1. category_name
